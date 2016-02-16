@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-ef9252f8a2e3a9128dfd83737a5080a48cb7e760	puppet-contrail-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+41d61e6decb30f3ff8db2df72a239a7c15504e42       	puppet-contrail-distgit-core
+ef9252f8a2e3a9128dfd83737a5080a48cb7e760        	puppet-contrail-distgit-ptl
+global:Registered-Users		Registered Users
