@@ -7,8 +7,8 @@
 
 
 Name:           puppet-contrail
-Version:        XXX
-Release:        XXX
+Version:        1.0.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Puppet module for Juniper OpenContrail
 License:        Apache-2.0
 
@@ -50,4 +50,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/contrail/
 
 
 %changelog
+* Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 1.0.0-1.c0f7cde.git
+- Newton update 1.0.0 (c0f7cde686c20ce139c184c688e9f7d13dcd0743)
+
 
