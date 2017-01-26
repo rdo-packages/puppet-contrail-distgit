@@ -1,6 +1,6 @@
 # UUID                                  	Group Name
 #
 41d61e6decb30f3ff8db2df72a239a7c15504e42	puppet/puppet-contrail-distgit-core
-ef9252f8a2e3a9128dfd83737a5080a48cb7e760	puppet/puppet-contrail-distgit-ptl
 63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
+ef9252f8a2e3a9128dfd83737a5080a48cb7e760	puppet/puppet-contrail-distgit-ptl
 global:Registered-Users                 	Registered Users
