@@ -10,7 +10,7 @@ Name:           puppet-contrail
 Version:        XXX
 Release:        XXX
 Summary:        Puppet module for Juniper OpenContrail
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/redhat-cip/puppet-contrail
 
