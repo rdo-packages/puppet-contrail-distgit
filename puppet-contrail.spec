@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-contrail
-%global commit 22558d68034c05eb48d0b2ad2aa6f2964521ca0e
+%global commit 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-contrail
-Version:        XXX
-Release:        XXX
+Version:        1.0.0
+Release:        2%{?alphatag}%{?dist}
 Summary:        Puppet module for Juniper OpenContrail
 License:        ASL 2.0
 
@@ -50,4 +50,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/contrail/
 
 
 %changelog
+* Thu Feb 09 2017 Alfredo Moralejo <amoralej@redhat.com> 1.0.0-2.9a890f3git
+- Ocata update 1.0.0 (9a890f368bee58efa4ea9f94fcfe6bdc3d82c592)
 
