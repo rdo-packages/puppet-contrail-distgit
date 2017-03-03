@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-contrail
-%global commit 22558d68034c05eb48d0b2ad2aa6f2964521ca0e
+%global commit 7eccb1a9249dd81424adc22cca31e2ad55c31498
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
@@ -10,7 +10,7 @@ Name:           puppet-contrail
 Version:        XXX
 Release:        XXX
 Summary:        Puppet module for Juniper OpenContrail
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/Juniper/puppet-contrail
 
@@ -50,4 +50,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/contrail/
 
 
 %changelog
+
 
