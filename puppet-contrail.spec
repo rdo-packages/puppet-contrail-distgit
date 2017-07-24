@@ -52,3 +52,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/contrail/
 %changelog
 
 
+# REMOVEME: error caused by commit https://github.com/Juniper/puppet-contrail/commit/b582560685fb90c5734a3e91a6c4d8c737c2284b
