@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-contrail
-%global commit 22558d68034c05eb48d0b2ad2aa6f2964521ca0e
+%global commit 6f87929aa560660fce203f588487f08cacd0fdf7
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-contrail
-Version:        XXX
-Release:        XXX
+Version:        1.0.0
+Release:        5%{?alphatag}%{?dist}
 Summary:        Puppet module for Juniper OpenContrail
 License:        ASL 2.0
 
@@ -50,5 +50,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/contrail/
 
 
 %changelog
+* Fri Mar 25 2022 RDO <dev@lists.rdoproject.org> 1.0.0-5.6f87929git
+- Update to post 1.0.0 (6f87929aa560660fce203f588487f08cacd0fdf7)
+
 
 
